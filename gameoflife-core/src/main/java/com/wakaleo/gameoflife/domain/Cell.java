@@ -7,6 +7,7 @@ public enum Cell {
 
     private Cell(final String initialSymbol) {
         this.symbol = initialSymbol;
+	System.out.println("Print");
     }
 
     @Override
